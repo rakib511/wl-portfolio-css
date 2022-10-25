@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.top-banner {
+    background-color: cornsilk;
+    display: flex;
+}
+
+.h1-title-top {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+span {
+    color: orange;
+}
+
+.half-width {
+    width: 50%;
+    padding: 30px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.hire-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.middle-banner {
+    background-color: aliceblue;
+    display: flex;
+}
+
+/* experience section */
+.experiences {
+    display: flex;
+}
+
+.h1-title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 70px;
+    border-bottom: 2px solid black;
+    width: 25%;
+}
+
+.box1 {
+    box-shadow: 10px 20px 5px gray;
+    margin: 80px;
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+.box2 {
+    box-shadow: 10px 20px 5px gray;
+    margin: 80px;
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 1;
+}
+
+.experiences {
+    background-color: rgb(211, 233, 233);
+}
+
+footer p {
+    text-align: center;
+}
